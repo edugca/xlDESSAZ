@@ -1,6 +1,6 @@
 # xlDESSAZ
 
-This spreadsheet exposes examples of how to seasonally adjust and forecast time series with X13-ARIMA-SEATS without having to leave Excel (Windows only).														
+This spreadsheet exposes examples of how to seasonally adjust and forecast time series with X13-ARIMA-SEATS without having to leave Microsoft Excel (Windows only).														
 It is intended to be used by researchers and the general public. It is NOT a product of the BCB, nor it is maintained by that institution. Use at your own risk!														
 It is totally free and its code is open!														
 														
@@ -32,7 +32,7 @@ Alternatively, copy to your spreadsheet the VBA modules named "xlDESSAZ_Function
 																								
 	4) Open the VBA module ""xlDESSAZ_Functions"" at your spreadsheet. At the beginning of the module, set the following paths accordingly.
 X13_path must be directed to the x13as.exe file at the X13-ARIMA-SEATS installation folder.
-X13_temp_folder_path should be a folder one creates specifically for the purpose of holding temporay files in-between Excel and X13-ARIMA-SEATS, preferably at a fast hard drive (i.e. SSD). One should not share this folder with any other programs or files!"													
+X13_temp_folder_path should be a folder one creates specifically for the purpose of holding temporay files in-between Excel and X13-ARIMA-SEATS, preferably at a fast hard drive (i.e. SSD). One should not share this folder with any other programs or files!													
 														
 														
 * These functions rely on executing the software X13-ARIMA-SEATS and accessing user-specified folders. So, when designing your spreadsheet, consider copying function results and pasting them as values.														
