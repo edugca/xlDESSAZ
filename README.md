@@ -30,7 +30,7 @@ Alternatively, copy to your spreadsheet the VBA modules named "xlDESSAZ_Function
 																		
 	3) Drag the VBA modules "xlDESSAZ_Functions" and "xlDESSAZ_modShellAndWait" from this spreadsheet to your spreadsheet.													
 																								
-	4) Open the VBA module ""xlDESSAZ_Functions"" at your spreadsheet. At the beginning of the module, set the following paths accordingly.
+	4) Open the VBA module "xlDESSAZ_Functions" at your spreadsheet. At the beginning of the module, set the following paths accordingly.
 X13_path must be directed to the x13as.exe file at the X13-ARIMA-SEATS installation folder.
 X13_temp_folder_path should be a folder one creates specifically for the purpose of holding temporay files in-between Excel and X13-ARIMA-SEATS, preferably at a fast hard drive (i.e. SSD). One should not share this folder with any other programs or files!													
 														
