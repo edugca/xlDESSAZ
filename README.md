@@ -24,6 +24,7 @@ Alternatively, copy to your spreadsheet the VBA modules named "xlDESSAZ_Function
 	1) With your spreadsheet open, make sure macros are enabled and the Developer tab is displayed. In the links below, you learn how to do that:													
 														
 	https://support.microsoft.com/en-us/office/enable-or-disable-macros-in-office-files-12b036fd-d140-4e74-b45e-16fed1a7e5c6													
+	
 	https://support.microsoft.com/en-us/topic/show-the-developer-tab-e1192344-5e56-4d45-931b-e5fd9bea2d45													
 														
 	2) In the ribbon, click on Developer tab, then on "Visual Basic".													
