@@ -47,3 +47,6 @@ X13_temp_folder_path should be a folder one creates specifically for the purpose
 														
 v 0.1 (2022-02-06)														
 First release.
+
+v 0.1.1 (2022-02-08)
+Cosmetics: in the examples, interval forecasts were changed to 95%, so it is closer to standard practice. Description of forecasting parameters was clarified.
