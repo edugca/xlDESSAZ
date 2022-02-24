@@ -47,7 +47,17 @@ X13_temp_folder_path should be a folder one creates specifically for the purpose
 ** Version history														
 														
 v 0.1 (2022-02-06)														
+
 First release.
 
 v 0.1.1 (2022-02-08)
+
 Cosmetics: in the examples, interval forecasts were changed to 95%, so it is closer to standard practice. Description of forecasting parameters was clarified.
+
+v 0.2 (2022-02-24)
+
+* Function xlDESSAZ now accepts multiple series with the same date vector in the same function call. This speeds up the process by using the batch resource of the X13-ARIMA-SEATS software.
+
+* Function xlDESSAZ has new options of return: SF (seasonal factor), CF (calendar factor).
+
+* Added worksheet exemplifying the use of the xlDESSAZ_X13_SetUp function.
