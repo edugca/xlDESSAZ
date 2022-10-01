@@ -1,4 +1,4 @@
-# xlDESSAZ (v. 0.2.1)
+# xlDESSAZ (v. 0.2)
 
 This spreadsheet exposes examples of how to seasonally adjust and forecast time series with X13-ARIMA-SEATS without having to leave Microsoft Excel (Windows only).														
 It is intended to be used by researchers and the general public. It is NOT a product of the BCB, nor it is maintained by that institution. Use at your own risk!														
@@ -46,24 +46,18 @@ X13_temp_folder_path should be a folder one creates specifically for the purpose
 																											
 ** Version history														
 														
-v 0.2.1 (2022-10-01)
+v 0.1 (2022-02-06)														
 
-* Bug fix: decimal separators different from comma were not being correctly processed.
-
-* Improvement: Functions xlDESSAZ and xlDESSAZ_X13_SetUp are no more calculated when the Function Wizard is open. This avoids messy unnecessary calculations.
-
-v 0.2 (2022-02-24)
-
-* Improvement: Function xlDESSAZ now accepts multiple series with the same date vector in the same function call. This speeds up the process by using the batch resource of the X13-ARIMA-SEATS software.
-
-* Improvement: Function xlDESSAZ has new options of return: SF (seasonal factor), CF (calendar factor).
-
-* Improvement: Added worksheet exemplifying the use of the xlDESSAZ_X13_SetUp function.
+First release.
 
 v 0.1.1 (2022-02-08)
 
-* Improvement: Cosmetics: in the examples, interval forecasts were changed to 95%, so it is closer to standard practice. Description of forecasting parameters was clarified.
+Cosmetics: in the examples, interval forecasts were changed to 95%, so it is closer to standard practice. Description of forecasting parameters was clarified.
 
-v 0.1 (2022-02-06)														
+v 0.2 (2022-02-24)
 
-* First release.
+* Function xlDESSAZ now accepts multiple series with the same date vector in the same function call. This speeds up the process by using the batch resource of the X13-ARIMA-SEATS software.
+
+* Function xlDESSAZ has new options of return: SF (seasonal factor), CF (calendar factor).
+
+* Added worksheet exemplifying the use of the xlDESSAZ_X13_SetUp function.
