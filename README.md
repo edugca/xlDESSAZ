@@ -44,7 +44,7 @@ X13_temp_folder_path should be a folder one creates specifically for the purpose
 	* All limitations that apply to X13-ARIMA-SEATS seasonal adjustment algorithm also apply here.													
 	* So far, the tool has only been tested with vertically-aligned vectors and matrices. So, data should be vertically-aligned.													
 																											
-** Version history														
+## Version history														
 														
 v 0.2.1 (2022-10-01)
 
