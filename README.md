@@ -1,4 +1,4 @@
-# xlDESSAZ (v. 0.2.1)
+# xlDESSAZ (v. 0.2.2)
 
 This spreadsheet exposes examples of how to seasonally adjust and forecast time series with X13-ARIMA-SEATS without having to leave Microsoft Excel (Windows only).														
 It is intended to be used by researchers and the general public. It is NOT a product of the BCB, nor it is maintained by that institution. Use at your own risk!														
@@ -45,7 +45,13 @@ X13_temp_folder_path should be a folder one creates specifically for the purpose
 	* So far, the tool has only been tested with vertically-aligned vectors and matrices. So, data should be vertically-aligned.													
 																											
 ## Version history														
-														
+
+v 0.2.2 (2022-10-07)
+
+* Bug fix: moving VBA modules to a workbook without a reference to Microsoft Scripting raised error in reason of non-declared constants.
+
+* Bug fix: debug routines were moved to main modules to avoid missing references.
+
 v 0.2.1 (2022-10-01)
 
 * Bug fix: decimal separators different from comma were not being correctly processed.
