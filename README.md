@@ -12,7 +12,7 @@ https://github.com/edugca/xlDESSAZ
 * To update from a previous version, just replace the old version of this spreadsheet with this one.														
 To update in your own spreadsheets, you need to open each one of them in the VBA Editor and replace the modules "xlDESSAZ_Functions" and "xlDESSAZ_modShellAndWait" with their current versions embedded in this spreadsheet.														
 														
-* For this tool to work, one needs to install the software X13-ARIMA-SEATS, which can be downloaded freely from the website below:														
+* For this tool to work, one needs to have installed .NET Framework v. 3.5 (newer versions are no substitute) and the software X13-ARIMA-SEATS, which can be downloaded freely from the website below:														
 https://www.census.gov/data/software/x13as.html														
 														
 *Documentation of the software X13-ARIMA-SEATS is available in the following link (if the link is broken, just check their website):														
