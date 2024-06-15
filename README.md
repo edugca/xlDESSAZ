@@ -1,4 +1,4 @@
-# xlDESSAZ (v. 0.2.5)
+# xlDESSAZ (v. 0.2.6)
 
 This spreadsheet exposes examples of how to seasonally adjust and forecast time series with X13-ARIMA-SEATS without having to leave Microsoft Excel (Windows only).														
 It is intended to be used by researchers and the general public. It is NOT a product of the BCB, nor it is maintained by that institution. Use at your own risk!														
@@ -12,7 +12,7 @@ https://github.com/edugca/xlDESSAZ
 * To update from a previous version, just replace the old version of this spreadsheet with this one.														
 To update in your own spreadsheets, you need to open each one of them in the VBA Editor and replace the modules "xlDESSAZ_Functions" and "xlDESSAZ_modShellAndWait" with their current versions embedded in this spreadsheet.														
 														
-* For this tool to work, one needs to install the software X13-ARIMA-SEATS, which can be downloaded freely from the website below:														
+* For this tool to work, one needs to have installed .NET Framework v. 3.5 (newer versions are no substitute) and the software X13-ARIMA-SEATS, which can be downloaded freely from the website below:														
 https://www.census.gov/data/software/x13as.html														
 														
 *Documentation of the software X13-ARIMA-SEATS is available in the following link (if the link is broken, just check their website):														
@@ -46,11 +46,15 @@ X13_temp_folder_path should be a folder one creates specifically for the purpose
 																											
 ## Version history														
 
-v 0.2.5 (2023-03-26)
+v 0.2.6 (2024-06-15)
+
+* Bug fix: decimal separators when system default was enabled were not being correctly processed.
+
+v 0.2.5 (2024-03-26)
 
 * Bug fix: default spec was simplified so that only "transform" and "save" specs are part of it. Previously, "outlier" and "automdl" were also specified even though without any parameter set inside of it.
 
-v 0.2.4 (2023-03-23)
+v 0.2.4 (2024-03-23)
 
 * Bug fix: series with zero values were not being processed resulting in error message.
 * Update: the IBC-Br spec used as example was updated to its current version.
