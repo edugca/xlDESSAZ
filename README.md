@@ -1,4 +1,5 @@
 # xlDESSAZ (v. 0.2.6)
+<img src="https://github.com/user-attachments/assets/7a12cfa8-298a-417a-9062-0644868842c7" width=50% height=50%>
 
 This spreadsheet exposes examples of how to seasonally adjust and forecast time series with X13-ARIMA-SEATS without having to leave Microsoft Excel (Windows only).														
 It is intended to be used by researchers and the general public. It is NOT a product of the BCB, nor it is maintained by that institution. Use at your own risk!														
