@@ -5,6 +5,10 @@ This spreadsheet exposes examples of how to seasonally adjust and forecast time 
 It is intended to be used by researchers and the general public. It is NOT a product of the BCB, nor it is maintained by that institution. Use at your own risk!														
 It is totally free and its code is open!														
 														
+## Suggested citation
+
+Amaral, E. G. C. (2024). xlDESSAZ: Seasonal adjustment and forecasting in Excel (Version 0.2.6) [Computer software]. [GitHub](https://github.com/edugca/xlDESSAZ).
+
 TIPS														
 														
 * Most recent version should be found on this webpage:														
